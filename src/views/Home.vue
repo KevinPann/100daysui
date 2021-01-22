@@ -1,11 +1,5 @@
 <template>
-  <div class="flex-center">
-    <div class="home-content">
-      <h1>100 days of ui challenge</h1>
-      Siin on repo, kuhu panna enda UI-harjutused. Kasuta Vue routerit ja route, et ülesandeid eraldada.
-      Css võib olla inline, scss ja sass on kasutatavad, lessi saab ka sisse lülitada (kes tahab).
-    </div>
-  </div>
+      <div :style="{'background-image':'url(https://giphy.com/gifs/3o6Zt481isNVuQI1l6/html5) '}"></div>
 </template>
 
 <script>
@@ -15,9 +9,9 @@ export default {
   name: 'Home',
   components: {}
 }
-</script>
 
-<style lang="scss">
+</script>
+<style lang="css">
   .flex-center {
     display: flex;
     justify-content: center;
